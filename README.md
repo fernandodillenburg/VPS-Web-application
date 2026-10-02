@@ -79,7 +79,7 @@ O arquivo `server.js` concentra as rotas e o servidor HTTP. O `db.js` define a c
 
 ## Implantação — etapas 1 a 13
 
-O roteiro descreve uma instalação nova em VPS dedicada ao projeto. Para servidores que já hospedam outros sistemas, as configurações devem ser integradas aos serviços existentes.
+O processo de instalação de VPS dedicada. Para servidores que já hospedam outros sistemas (Windows/Linux).
 
 Os comandos Linux são executados na VPS por SSH, usando PuTTY ou outro cliente. Comandos PowerShell são executados no computador Windows. Os exemplos usam `sistema.exemplo.com.br`, `IP_DA_VPS` e `USUARIO_SSH`, que devem ser substituídos pelos valores do ambiente.
 
@@ -457,11 +457,8 @@ A implantação deste projeto alcançou execução da aplicação com conexão M
 
 O trabalho documenta competências de administração Linux, controle de acesso a serviços, configuração de banco relacional, gestão de processos, DNS, proxy reverso e certificados TLS. O roteiro de validação funcional permanece como referência para novas instalações; não representa uma suíte automatizada de testes ou uma medição de desempenho.
 
-## Publicação do repositório
+Os comandos deste README usam valores de exemplo. Credenciais, chaves privadas, dumps com dados reais e pacotes de implantação devem permanecer fora do repositório. 
 
-Os comandos deste README usam valores de exemplo. Credenciais, chaves privadas, dumps com dados reais e pacotes de implantação devem permanecer fora do repositório. O `.gitignore` inclui exclusões para os arquivos operacionais locais; ele não remove arquivos de um histórico Git já publicado.
-
-Para uma apresentação pública, revise também os dados de demonstração em `db.js`, o logotipo e as informações institucionais usadas nos relatórios. A publicação do README não depende da disponibilização de dados de produção ou de credenciais de acesso ao sistema.
 
 ## Referências técnicas
 
